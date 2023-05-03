@@ -9,13 +9,14 @@ resource "aws_instance" "web" {
   
   tags = {
     Name = "mtlcollege"
-    
-      resource "aws_instance" "web" {
+
+  }
+    resource "aws_instance" "web" {
   ami = "ami-0da62eb5869c785b9"
   instance_type = "t3.micro"
   
   tags = {
     Name = "jade"
-  }
 }
-  
+    }
+}
