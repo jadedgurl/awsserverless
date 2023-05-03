@@ -11,6 +11,7 @@ resource "aws_instance" "web" {
     Name = "mtlcollege"
 
   }
+}
   resource "aws_instance" "web" {
   ami = "ami-0da62eb5869c785b9"
   instance_type = "t3.micro"
@@ -19,4 +20,3 @@ resource "aws_instance" "web" {
     Name = "jade"
   }
  }
-}
